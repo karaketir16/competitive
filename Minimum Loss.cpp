@@ -32,26 +32,7 @@ lint fonk(lint x,lint current)
         lint t=0;
         t= fonk(x,a);
         total+=t;
-        /*
-        if(x<tree[a].value)
-        {
-            t=fonk(x,tree[a].childs);
-        }
-        if(t==0)
-        {
-            Node new_node;
-            new_node.value=x;
-            tree.pb(new_node);
-            (*(childs[i])).childs.pb(&tree[tree.size()-1]);
-            total++;
 
-
-        }
-        else
-        {
-            total+=t;
-        }
-        */
         
     }
     if(total==0)
@@ -64,6 +45,16 @@ lint fonk(lint x,lint current)
     }
 
     return total;
+
+}
+lint minn=inf;
+void calculate(lint current)
+{
+    for(auto c:tree[current].childs)
+    {
+        minn=min(minn,tree[current].value-tree[c].value);
+        calculate(c);
+    }
 
 }
 int main()
@@ -81,21 +72,12 @@ int main()
         lint x;
         cin>>x;
         lint t=fonk(x,0);
-        /*
-        //cout<<t;
-        if(t==0)
-        {
-            Node new_node;
-            new_node.value=x;
-            tree.pb(new_node);
-            tree[0].childs.pb(&tree[tree.size()-1]);
-            
-
-        }
-        */
 
 
     }
+    calculate(0);
+    cout<<minn;
+    /*
     for(auto b:tree)
     {
         cout<<"value: "<<b.value<<" childs: ";
@@ -107,18 +89,8 @@ int main()
         cout<<endl;
 
     }
-    
-    /*
-    cout<<endl;
-    Node t=tree[0];
-    while(t.childs.size()>0)
-    {
-        cout<<t.value<<" ";
-        t=*(t.childs[0]);
-
-    }
-    cout<<t.value;
     */
+    
 
 }
 /*
