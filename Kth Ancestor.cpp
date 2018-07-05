@@ -8,6 +8,7 @@
 #define max3(a,b,c) max(a,max(b,c))
 #define dbg(x) cerr<<#x<<":"<<x<<endl
 #define N 100005
+#define LN 20
 #define MOD 1000000007
 #define orta ((a+b)/2)
 using namespace std;
@@ -15,37 +16,57 @@ typedef long long int lint;
 typedef pair<int,int> ii;
 struct Node
 {
-    vector<ii> sorgular;
+    
     set<int> children;
-    int parent=-1;
+    int parent=0;
+    //int parent=0;
+    bool in_tree=0;
 };
 vector<int> resultss;
 vector<Node> nodess;
-int total_girilen_node=0;
-void dfs(vector<int> way, int node)
+vector<vector<int>> tablee;
+int hesap(int node,int xth)
 {
-    total_girilen_node++;
-    way.pb(node);
-    int last=way.size()-1;
-    for(auto x:nodess[node].sorgular)
+    int temp=node;
+    //tablee[0][temp]=nodess[temp].parent;
+    for(int i=0;i<LN;i++)
     {
-        if(last-x.sc<0)
+        if((1<<i)&xth)
         {
-            resultss[x.fi]=0;
-            //cout<<x.fi<<". result: "<<0<<endl;
+            temp=tablee[i][temp];
         }
-        
-        else
-        {
-            resultss[x.fi]=way[last-x.sc];
-            //cout<<x.fi<<". result: "<<way[last-x.sc]<<endl;
-        }
-        
-        
     }
-    for(auto c:nodess[node].children)
+    return temp;
+}
+void table_doldur(int node)
+{
+    //cout<<"TEST";
+    tablee[0][node] = nodess[node].parent;
+    //cout<<"parent:: "<<nodess[node].parent<<"::";
+    for(int i=1;i<LN; i++)
     {
-        dfs(way,c);
+        tablee[i][node] = tablee[i-1][tablee[i-1][node]];
+    }
+    
+ 
+    for(auto x: nodess[node].children)
+
+    {
+        table_doldur(x);
+    }
+}
+
+void print_tree(int root)
+{
+    cout<<root<<"'s childs: ";
+    for(auto x:nodess[root].children)
+    {
+        cout<<x<<" ";
+    }
+    cout<<endl;
+    for(auto x:nodess[root].children)
+    {
+        print_tree(x);
     }
 }
 int main()
@@ -54,22 +75,35 @@ int main()
     cin>>test_case;
     while(test_case--)
     {
-        
+        vector<int> row(N,0);
+        vector<vector<int>> table(LN,row);//log_nxn
+        vector<Node> nodes(N);
+        nodess=nodes;
+
+        tablee=table;
         int p;
         int root;
-        vector<Node> nodes(N);
+        
         cin>>p;
+                
+
         for(int i=0;i<p;i++)
         {
+            //cout<<"TEST";
             int child;
             int parent;
             cin>>child;
             cin>>parent;
-            nodes[parent].children.insert(child);
-            nodes[child].parent=parent;
-            if(parent==0) root=child;
-            //cout<<"alindi\n";
+            nodess[parent].children.insert(child);
+            nodess[child].parent=parent;
+            if(parent==0)
+            { 
+                root=child;
+            }
+            nodess[child].in_tree=1;
         }
+        table_doldur(root);
+
         int q;
         cin>>q;
         int quer=0;
@@ -85,23 +119,32 @@ int main()
                     child;
                     cin>>parent;
                     cin>>child;
-                    nodes[child].parent=parent;
-                    nodes[parent].children.insert(child);
-
+                    nodess[child].parent=parent;
+                    nodess[parent].children.insert(child);
+                    nodess[child].in_tree=1;
+                    table_doldur(child);
                     break;
                 case 1:
                     cin>>child;
-                    nodes[nodes[child].parent].children.erase(nodes[nodes[child].parent].children.find(child));
-                    nodes[child].parent=-1;
-                    
+                    nodess[child].in_tree=0;
+                    nodess[nodess[child].parent].children.erase(nodess[nodess[child].parent].children.find(child));
                     break;
 
                 case 2:
                     cin>>child;
                     int k;
                     cin>>k;
-                    nodes[child].sorgular.pb(MP(quer,k));
-                    quer++;
+                    //sorgular.pb(MP(nodess[child].in_tree,MP(child,k)));
+                    if(nodess[child].in_tree)
+                    {
+                        int x = hesap(child,k);
+                        cout<<x<<"\n";
+                    }
+                    else
+                    {
+                        cout<<0<<"\n";
+
+                    }
 
                     break;    
                 default:
@@ -109,21 +152,74 @@ int main()
             }
             //cout<<"alindi\n";
         }
-        vector<int> results(quer,0);
 
-        vector<int> parents_way;
-        nodess=nodes;
-        resultss=results;
-        dfs(parents_way,root);
-        //sort(resultss.begin(),resultss.end());
-        for(auto x:resultss)
-        {
-            cout<<x<<"\n";
-        }
 
 
     }
-    cout<<endl<<endl<<total_girilen_node;
+    //cout<<endl<<endl<<total_girilen_node;
 
     return 0;
 }
+
+       /*
+        for(auto a:nodess[root].children)
+        {
+            table_doldur(a);
+        }
+        */
+        /*
+        for(int i=0;i<LN;i++)
+        {
+            for(int j=0;j<N;j++)
+            {
+                if(nodes[j].parent!=-1)
+                {
+                    cout<<tablee[i][j]<<" ";
+                }
+            }
+            cout<<endl;
+        }
+        */
+        //sort(resultss.begin(),resultss.end());
+                //print_tree(root);
+        //dfs(root);
+        /*
+        for(int i=0;i<LN;i++)
+        {
+            tablee[i][root]=0;
+        }
+        cout<<"TEST";
+        */
+
+       /*
+void dfs(int node)
+{
+    for(int i=0;i<LN;i++)
+    {
+        nodess[i][node]=hesap(node,i);
+    }
+    total_girilen_node++;
+    way.pb(node);
+    int last=way.size()-1;
+    for(auto x:nodess[node].sorgular)
+    {
+        if(last-x.sc.sc<0||x.fi==0)
+        {
+            resultss[x.sc.fi]=0;
+            //cout<<x.fi<<". result: "<<0<<endl;
+        }
+        
+        else
+        {
+            resultss[x.sc.fi]=way[last-x.sc.sc];
+            //cout<<x.fi<<". result: "<<way[last-x.sc]<<endl;
+        }
+        
+        
+    }
+    for(auto c:nodess[node].children)
+    {
+        dfs(way,c);
+    }
+}
+*/
