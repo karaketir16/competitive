@@ -58,6 +58,7 @@ int main()//1 Lose 2 Win
             brd[i][j]=greedy(i,j);
         }
     }
+    /*
     
     cout<<endl;
     for(int i=1;i<16;i++)
@@ -68,6 +69,7 @@ int main()//1 Lose 2 Win
         }
         cout<<endl;
     }
+    */
     
 
     
