@@ -1,8 +1,1 @@
-[Black Mirror 1](Black Mirror 1.cpp)
-
-[Black Mirror 1](karaketir16/Black Mirror 1.cpp)
-
-
-[Read me](README.md)
-
-
+<a href="Black Mirror 1">Black Mirror 1.cpp</a>
