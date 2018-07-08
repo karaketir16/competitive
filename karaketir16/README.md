@@ -14,6 +14,9 @@
 ### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/floyd-city-of-blinding-lights)
 -Floyd-Warshall algorithm
 
+### [Jack goes to Rapture](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/jack-goes-to-rapture)
+-Dijkstra's algorithm
+
 ### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/guitar)
 
 # Not Solved Yet
