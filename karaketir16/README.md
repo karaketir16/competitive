@@ -25,6 +25,9 @@
 ### [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kruskalmstrsub/problem)
 -Prim's algorithm
 
+### [Kth Ancestor](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kth-ancestor/submissions)
+-Finding ancestors
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
