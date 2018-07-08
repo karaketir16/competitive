@@ -14,13 +14,18 @@
 ### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/floyd-city-of-blinding-lights)
 -Floyd-Warshall algorithm
 
+### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/guitar)
+
 ### [Jack goes to Rapture](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/jack-goes-to-rapture)
 -Dijkstra's algorithm
 
-### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/guitar)
+### [Knapsack](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/unbounded-knapsack)
+-Knapsack problems
 
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
 
 ### [Hypertubes](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/hypertubes)
+
+### [Kingdom Division](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kingdom-division)
