@@ -28,6 +28,10 @@
 ### [Kth Ancestor](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kth-ancestor/submissions)
 -Finding ancestors
 
+### [Merdopolis](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/merdopolis)
+-Calculating the diameter of a tree
+-Depth-first search
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
