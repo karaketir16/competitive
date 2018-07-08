@@ -4,12 +4,17 @@
 -Game theory
 
 -Sprague-Grundy theorem 
-### [Favorite sequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/favourite-sequence)
--Topological sorting
-### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/floyd-city-of-blinding-lights)
--Floyd-Warshall algorithm
+
 ### [Crossword Puzzle](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/crossword-puzzle/submissions/code/1308710627)
 -Backtracking
+
+### [Favorite sequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/favourite-sequence)
+-Topological sorting
+
+### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/floyd-city-of-blinding-lights)
+-Floyd-Warshall algorithm
+
+### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/guitar)
 
 # Not Solved Yet
 
