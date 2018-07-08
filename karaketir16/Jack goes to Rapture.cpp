@@ -55,7 +55,7 @@ int main()
     while(pq.size()>0)
     {
         
-        minn=min(minn,pq.top().fi);
+        minn=min(minn,pq.top().fi);//we  search max but this values multipled by -1
             //cout<<" 1: "<<pq.top().fi<<" 2: "<<pq.top().sc<<"\n";
         lint current = pq.top().sc;
         if(current==n)
