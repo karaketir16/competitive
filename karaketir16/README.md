@@ -32,6 +32,9 @@
 -Calculating the diameter of a tree
 -Depth-first search
 
+### [No Prefix Set](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/no-prefix-set)
+-Trie structure
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
