@@ -43,3 +43,5 @@
 ### [Mafia 2](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/mafia-2)
 
 ### [Merdoland](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/merdoland)
+
+### [Minimum Loss](https://www.hackerrank.com/challenges/minimum-loss/problem)
