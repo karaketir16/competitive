@@ -40,6 +40,9 @@
 ### [Punishment 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/punishment-1)
 -Binary search
 
+### [Sherlock and Array](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/sherlock-and-array)
+-Prefix sum array
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
