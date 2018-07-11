@@ -32,10 +32,11 @@ int main()
     int son_eklenen=0;
     int sonuc=0;
     int kok_sayisi=0;
+    
     if(m==0)
     
     {
-        int sifir_sayisi;
+        int sifir_sayisi=0;
         for(auto a: arr)
         {
             if(a==0)
@@ -43,9 +44,16 @@ int main()
                 sifir_sayisi++;
             }
         }
-        if(sifir_sayisi>0)
+        if(sifir_sayisi==1)
         {
-            cout<<n-sifir_sayisi;
+            cout<<n-1;
+            
+            return 0;
+        }
+        else if(sifir_sayisi>1)
+        {
+            int diger=n-sifir_sayisi;
+            cout<<(n*(n-1)/2)-(diger*(diger-1)/2);
             return 0;
         }
         else
@@ -55,6 +63,7 @@ int main()
         }
 
     }
+    
     for(int i=0;i<arr.size();i++)
     {
         if(arr[i]==0)
@@ -83,7 +92,7 @@ int main()
             auto it=lower_bound(arr.begin(),arr.end(),aranan);
             if(it!=arr.end())//bulunursa
             {
-                /*
+                
                 if(aranan==arr[i])
                 {
                     while(it!=arr.end()&&(*it)==aranan)
@@ -91,17 +100,19 @@ int main()
                         it++;
                         kok_sayisi++;
                     }
+                    son_eklenen=0;
                     continue;
                 }
-                */
+                
                 while(it!=arr.end()&&(*it)==aranan)
                 {
-                    
+                    /*
                     if(distance(arr.begin(),it)==i)
                     {
                         it++;
                         continue;
                     }
+                    */
                     
                     simdi_eklenen++;
                     it++;
