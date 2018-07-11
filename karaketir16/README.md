@@ -35,6 +35,11 @@
 ### [No Prefix Set](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/no-prefix-set)
 -Trie structure
 
+### [Pelinsu and Berkecan](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/pelinsu-and-berkecan)
+
+### [Punishment 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/punishment-1)
+-Binary search
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
