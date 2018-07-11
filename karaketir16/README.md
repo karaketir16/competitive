@@ -62,3 +62,5 @@
 ### [Merdoland](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/merdoland)
 
 ### [Minimum Loss](https://www.hackerrank.com/challenges/minimum-loss/problem)
+
+### [The Longest Increasing Subsequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/longest-increasing-subsequent)
