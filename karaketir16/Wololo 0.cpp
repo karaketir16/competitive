@@ -133,14 +133,6 @@ int main()
         arr[i/2].son=arr[i].son;
     }
     //add_lazy(10,12,1,2);
-    
-    cout<<endl;
-    for(int i=1;i<2*size;i++)
-    {
-        cout<<i<<": "<<arr[i].value<<": bas: "<<arr[i].bas<<" son: "<<arr[i].son<<" lazy: "<<arr[i].lazy<<endl;
-    }
-    cout<<endl;
-    
     while(q--)
     {
         int e;
@@ -167,14 +159,6 @@ int main()
             default:
                 break;
         }
-
-        
-        cout<<endl;
-        for(int i=1;i<2*size;i++)
-        {
-        cout<<i<<": "<<arr[i].value<<": bas: "<<arr[i].bas<<" son: "<<arr[i].son<<" lazy: "<<arr[i].lazy<<endl;
-        }
-        cout<<endl;
         
         
     }
