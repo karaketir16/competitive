@@ -49,6 +49,9 @@
 ### [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/submissions)
 -Knapsack problems
 
+### [Wololo 0](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/wololo-0)
+-Segment tree with lazy propagation
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
