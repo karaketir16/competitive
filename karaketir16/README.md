@@ -52,6 +52,9 @@
 ### [Wololo 0](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/wololo-0)
 -Segment tree with lazy propagation
 
+### [Xor 3](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/xor-3-3)
+
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
