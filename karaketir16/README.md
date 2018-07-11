@@ -43,6 +43,9 @@
 ### [Sherlock and Array](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/sherlock-and-array)
 -Prefix sum array
 
+### [Snakes and Ladders: The Quickest Way Up](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/the-quickest-way-up)
+-Dijkstra's algorithm
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
