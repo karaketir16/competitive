@@ -46,6 +46,9 @@
 ### [Snakes and Ladders: The Quickest Way Up](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/the-quickest-way-up)
 -Dijkstra's algorithm
 
+### [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/submissions)
+-Knapsack problems
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
