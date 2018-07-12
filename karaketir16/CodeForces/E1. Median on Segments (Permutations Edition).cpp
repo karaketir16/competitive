@@ -15,8 +15,38 @@ int n,a,total=0;
 set<pair<int,int>> results;
 void fonk(vector<int> &arr,int g, int l, int b, int s)
 {
+    if(g==l||g-l==1)
+    {
     total++;
     results.insert(MP(b,s));
+    }
+    if(s+1<n)
+    {
+        if(arr[s+1]>a)
+        {
+            fonk(arr,g+1,l,b,s+1);
+        }
+        else
+        {
+            fonk(arr,g,l+1,b,s+1);
+        }
+        
+    }
+    if(b-1>=0)
+    {
+        if(arr[b-1]>a)
+        {
+            fonk(arr,g+1,l,b-1,s);
+        }
+        else
+        {
+            fonk(arr,g,l+1,b-1,s);
+        }
+        
+
+    }
+
+    /*
     if(g==l)
     {
         if(s+1<n&&arr[s+1]>a)
@@ -39,6 +69,7 @@ void fonk(vector<int> &arr,int g, int l, int b, int s)
             fonk(arr,g,l+1,b-1,s);
         }
     }
+    */
 }
 int main()
 {
@@ -54,7 +85,7 @@ int main()
         }
     }
     fonk(arr,0,0,a_ind,a_ind);
-    cout<<"test: "<<a_ind<<endl;
+    //cout<<"test: "<<a_ind<<endl;
     cout<<results.size();
     
     return 0;
