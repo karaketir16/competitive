@@ -7,4 +7,5 @@
 ### [C. Summarize to the Power of Two](http://codeforces.com/contest/1005/problem/C)
 
 # Not Solved Yet
+### [E1. Median on Segments (Permutations Edition)](http://codeforces.com/contest/1005/problem/E1)
  
