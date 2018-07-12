@@ -8,4 +8,4 @@
 
 # Not Solved Yet
 ### [E1. Median on Segments (Permutations Edition)](http://codeforces.com/contest/1005/problem/E1)
- 
+### [D. Polycarp and Div 3](http://codeforces.com/contest/1005/problem/D) 
