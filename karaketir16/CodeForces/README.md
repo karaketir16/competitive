@@ -4,9 +4,13 @@
 
 ### [A. Romaji](http://codeforces.com/contest/1008/problem/A)
 
+### [A. Extract Numbers](https://codeforces.com/contest/600/problem/A)
+
 ### [B. Delete from the Left](http://codeforces.com/contest/1005/problem/B)
 
 ### [B. Turn the Rectangles](http://codeforces.com/contest/1008/problem/B)
+
+### [B. Queries about less or equal elements](http://codeforces.com/contest/600/problem/B)
 
 ### [C. Summarize to the Power of Two](http://codeforces.com/contest/1005/problem/C)
 
