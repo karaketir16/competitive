@@ -18,6 +18,8 @@
 
 ### [B. The Best Gift](http://codeforces.com/contest/609/problem/B)
 
+### [B. HDD is Outdated Technology](https://codeforces.com/contest/612/problem/B)
+
 ### [C. Summarize to the Power of Two](http://codeforces.com/contest/1005/problem/C)
 
 ### [C. Reorder the Array](http://codeforces.com/contest/1008/problem/C)
