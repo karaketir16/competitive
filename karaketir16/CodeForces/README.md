@@ -26,6 +26,10 @@
 
 ### [C. Load Balancing](https://codeforces.com/contest/609/problem/C)
 
+### [C. Replace To Make Regular Bracket Sequence](https://codeforces.com/contest/612/problem/C)
+
+### [D. The Union of k-Segments](https://codeforces.com/contest/612/problem/D)
+
 # Not Solved Yet
 ### [E1. Median on Segments (Permutations Edition)](http://codeforces.com/contest/1005/problem/E1)
 ### [D. Polycarp and Div 3](http://codeforces.com/contest/1005/problem/D)
