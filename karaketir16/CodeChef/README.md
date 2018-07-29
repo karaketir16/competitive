@@ -2,12 +2,20 @@
 
 ### [The Lead Game](https://www.codechef.com/problems/TLG)
 
-### [Zonal Computing Olympiad 2014, 30 Nov 2013](https://www.codechef.com/ZCOPRAC/problems/ZCO14001/)
+### [Video Game](https://www.codechef.com/ZCOPRAC/problems/ZCO14001/)
 
 ### [Discrepancies in the Voters List](https://www.codechef.com/problems/VOTERS)
 
-### [Zonal Computing Olympiad 2012, 26 Nov 2011](https://www.codechef.com/ZCOPRAC/problems/ZCO12001)
+### [Matched Brackets](https://www.codechef.com/ZCOPRAC/problems/ZCO12001)
 
-### [Zonal Computing Olympiad 2015, 29 Nov 2014](https://www.codechef.com/ZCOPRAC/problems/ZCO15002)
+### [Variation](https://www.codechef.com/ZCOPRAC/problems/ZCO15002)
+
+### [Wormholes](https://www.codechef.com/ZCOPRAC/problems/ZCO12002)
+
+### [Triathlon](https://www.codechef.com/INOIPRAC/problems/INOI1201)
+
+
+### [Hussain Set](https://www.codechef.com/problems/COOK82C)
+
 
 # Not Solved Yet

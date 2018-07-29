@@ -2,6 +2,7 @@
 #define pb push_back
 #define fi first
 #define sc second
+#define all(x) x.begin(),x.end()
 #define inf	1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
