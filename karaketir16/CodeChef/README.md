@@ -14,8 +14,12 @@
 
 ### [Triathlon](https://www.codechef.com/INOIPRAC/problems/INOI1201)
 
-
 ### [Hussain Set](https://www.codechef.com/problems/COOK82C)
 
+### [SUPW](https://www.codechef.com/ZCOPRAC/problems/ZCO14002)
+
+### [Round Table](https://www.codechef.com/ZCOPRAC/problems/ZCO12004)
 
 # Not Solved Yet
+
+# [Special Sums](https://www.codechef.com/INOIPRAC/problems/INOI1501)
