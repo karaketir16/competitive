@@ -23,3 +23,5 @@
 # Not Solved Yet
 
 # [Special Sums](https://www.codechef.com/INOIPRAC/problems/INOI1501)
+
+# [Calvins Game](https://www.codechef.com/INOIPRAC/problems/INOI1301)
