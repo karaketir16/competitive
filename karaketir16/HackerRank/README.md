@@ -49,6 +49,9 @@
 ### [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/submissions)
 -Knapsack problems
 
+### [The Longest Common Subsequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/dynamic-programming-classics-the-longest-common-subsequence)
+
+
 ### [Wololo 0](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/wololo-0)
 -Segment tree with lazy propagation
 
