@@ -3,7 +3,7 @@
 ### [Chessboard Game Again](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/chessboard-game-again-1)
 -Game theory
 
--Sprague-Grundy theorem 
+-Sprague-Grundy theorem
 
 ### [Crossword Puzzle](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/crossword-puzzle/submissions/code/1308710627)
 -Backtracking
@@ -56,6 +56,10 @@
 -Segment tree with lazy propagation
 
 ### [Xor 3](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/xor-3-3)
+
+### [Halil and The Party](https://www.hackerrank.com/contests/itu-acm-contest-1/challenges/halil-and-party)
+
+### [Bekci and His Machine Learning Experience](https://www.hackerrank.com/contests/itu-acm-contest-1/challenges/bekci-and-his-machine-learning-experience)
 
 
 # Not Solved Yet
