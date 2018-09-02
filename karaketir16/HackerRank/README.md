@@ -61,6 +61,15 @@
 
 ### [Bekci and His Machine Learning Experience](https://www.hackerrank.com/contests/itu-acm-contest-1/challenges/bekci-and-his-machine-learning-experience)
 
+### [Bekci and His Machine Learning Experience 3](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/bekci-and-his-machine-learning-experience-3)
+
+### [Yavuz and His Brilliant 3ncrypt10n Technique 2](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/yavuz-and-his-brilliant-3ncrypt10n-technique-2)
+
+### [Bugrul vs Prime Snake](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/bugrul-vs-prime-snake)
+
+### [Oðuz and His New Job 2](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/oguz-and-his-new-job-2)
+
+### [Emre vs KEO](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/emre-vs-keo)
 
 # Not Solved Yet
 
