@@ -80,6 +80,15 @@
 ### [Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)
 -Game theory
 
+### [A Chessboard Game](https://www.hackerrank.com/challenges/a-chessboard-game-1/problem)
+-Game theory
+
+### [Introduction to Nim Game](https://www.hackerrank.com/challenges/nim-game-1/problem)
+-Game theory
+
+### [Tower Breakers](https://www.hackerrank.com/challenges/tower-breakers-1/problem)
+-Game theory
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
