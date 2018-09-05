@@ -89,6 +89,9 @@
 ### [Tower Breakers](https://www.hackerrank.com/challenges/tower-breakers-1/problem)
 -Game theory
 
+### [Nimble Game](https://www.hackerrank.com/challenges/nimble-game-1/problem)
+-Game theory
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
