@@ -72,6 +72,10 @@
 
 ### [Emre vs KEO](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/emre-vs-keo)
 
+### [Bob and Ben](https://www.hackerrank.com/challenges/bob-and-ben/problem)
+-Game theory
+
+-Sprague-Grundy theorem
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
