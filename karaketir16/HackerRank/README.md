@@ -76,6 +76,10 @@
 -Game theory
 
 -Sprague-Grundy theorem
+
+### [Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)
+-Game theory
+
 # Not Solved Yet
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
