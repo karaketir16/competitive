@@ -1,4 +1,4 @@
-# Solved
+﻿# Solved
 
 ### [Chessboard Game Again](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/chessboard-game-again-1)
 -Game theory
@@ -91,6 +91,17 @@
 
 ### [Nimble Game](https://www.hackerrank.com/challenges/nimble-game-1/problem)
 -Game theory
+
+### [Adventures of Bugrul](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/adventures-of-bugrul)
+
+### [Eylül and Her New Job](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/eylul-and-her-new-job)
+
+### [Oğuz and His New Job 3](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/oguz-and-his-new-job-3)
+
+### [Solut and Linux Kernel](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/solut)
+
+### [Yavuz and His Brilliant 3ncrypt10n Technique 3](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/yavuz-and-his-brilliant-3ncrypt10n-technique-3)
+
 
 # Not Solved Yet
 
