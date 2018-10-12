@@ -45,7 +45,7 @@ void trieFonk(State *state, string s, int wId)
     }
     state->wordIds.pb(wId);
 }
-State *root = new State;
+State *root;
 void bfs(State *state)
 {
     if(state==root)
@@ -74,7 +74,11 @@ void bfs(State *state)
 			break;
 		}
 
-        if(currentBest==root) state->suffixLink = root;
+        if(currentBest==root) 
+        {
+            state->suffixLink = root;
+            break;
+        }
         
         currentBest = currentBest->suffixLink;
     }  
@@ -95,41 +99,71 @@ void prepare()
 
     }
 }
+
+
+void deleteStates()
+{
+    queue<State*> state_q;
+    state_q.push(root);
+    while(!state_q.empty())
+    {
+        State *current = state_q.front();
+        state_q.pop();
+        
+        for(auto x:current->children)
+        {
+            if(x.sc!=NULL) state_q.push(x.sc);
+        }
+        delete current;
+
+    }
+}
 int main(int argc, char const *argv[])
 {
-    totalstate++;//   0       1       2      3       4    5        6
-    string strs[]={ "abba", "cab", "baba", "caab", "ac", "abac", "bac" };
-    for(int i=0;i<7;i++)
+
+    string text;//text that pattern search in
+    cin>>text;
+    text+='$';
+    root = new State;
+    int q;
+    cin>>q;
+    vector<string> queries;// patterns
+    vector<bool> results(q,0);// pattern found or not
+    for(int i=0;i<q;i++)
     {
-        string s=strs[i];
+        string s;
+        cin>>s;
+        queries.pb(s);
         trieFonk(root, s, i);
     }
     prepare();
-    string text = "abbacabbabacaabacabacbac$";
+
     State *state=root;
     for(auto s:text)
     {
-        //cout<<s<<endl;
-        
         while(true)
         {
-            if(!state->wordIds.empty()) cout<<state->wordIds[0]<<" Bulundu\n";
+            if(!state->wordIds.empty())
+            {
+                for(auto x:state->wordIds)
+                {
+                    results[x]=1;
+                }
+            }
             if(state->children[s]!=0)
             {
                 state=state->children[s];
                 break;
             }
             if(state==root) break;
-
             state=state->suffixLink;
-            //cout<<state<<' '<<root<<endl;
         }
     }
-/*     map<string,int> test;
-    test["ahmet"]=5;
-    test["mehemt"]=3;
-    cout<<"test: "<<test.at("hasan")<<endl;
-    for(auto x:test) cout<<x.sc<<endl;
-    cout<<totalstate<<endl; */
+    for(auto x:results)
+    {
+        if(x) cout<<"y\n";
+        else cout<<"n\n";
+    }
+    deleteStates();
     return 0;
 }
