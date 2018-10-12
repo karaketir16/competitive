@@ -120,7 +120,7 @@ void deleteStates()
 int main(int argc, char const *argv[])
 {
 
-    string text;//text that pattern search in
+    string text;//text that patterns search in
     cin>>text;
     text+='$';
     root = new State;
