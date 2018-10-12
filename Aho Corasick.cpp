@@ -146,7 +146,7 @@ int main(int argc, char const *argv[])
             state=state->suffixLink;
         }
     }
-    for(auto x:results)
+    for(auto x:results)//if a pattern found print 'y' else 'n'
     {
         if(x) cout<<"y\n";
         else cout<<"n\n";
