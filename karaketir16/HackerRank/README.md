@@ -1,120 +1,144 @@
 ﻿# Solved
 
-### [Chessboard Game Again](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/chessboard-game-again-1)
--Game theory
+### [Drawing Book](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/drawing-book)
 
--Sprague-Grundy theorem
+### [Algo Team](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/algo-team)
 
-### [Crossword Puzzle](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/crossword-puzzle/submissions/code/1308710627)
--Backtracking
+### [Almost Sorted](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/almost-sorted)
 
-### [Favorite sequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/favourite-sequence)
--Topological sorting
+### [Arrow 1](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/arrow-1-1)
 
-### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/floyd-city-of-blinding-lights)
--Floyd-Warshall algorithm
+### [Classes and Objects](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/classes-objects)
 
-### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/guitar)
+### [Array Triplets 1](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/array-triplets-1)
 
-### [Jack goes to Rapture](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/jack-goes-to-rapture)
--Dijkstra's algorithm
+### [Matrix Layer Rotation](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/matrix-rotation-algo)
 
-### [Knapsack](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/unbounded-knapsack)
--Knapsack problems
+### [Lights](https://www.hackerrank.com/contests/inzva-01-intro-onsite-2018/challenges/lights-1)
 
-### [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kruskalmstrsub/problem)
--Prim's algorithm
+### [Burak's Prime Number](https://www.hackerrank.com/contests/inzva-01-intro-onsite-2018/challenges/buraks-prime-number)
 
-### [Kth Ancestor](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kth-ancestor/submissions)
--Finding ancestors
+### [Two Strings](https://www.hackerrank.com/contests/inzva-01-intro-onsite-2018/challenges/two-strings)
 
-### [Merdopolis](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/merdopolis)
--Calculating the diameter of a tree
--Depth-first search
+### [It is Brute-Force](https://www.hackerrank.com/contests/inzva-01-intro-onsite-2018/challenges/it-is-brute-force)
 
-### [No Prefix Set](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/no-prefix-set)
--Trie structure
+### [Burak's Sequence](https://www.hackerrank.com/contests/inzva-01-intro-onsite-2018/challenges/buraks-sequence)
 
-### [Pelinsu and Berkecan](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/pelinsu-and-berkecan)
+### [Help the Snail](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/help-the-snail)
 
-### [Punishment 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/punishment-1)
--Binary search
+### [Read the Mail](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/read-the-mail)
 
-### [Sherlock and Array](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/sherlock-and-array)
--Prefix sum array
+### [Remember Bubble Sort](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/remember-bubble-sort)
 
-### [Snakes and Ladders: The Quickest Way Up](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/the-quickest-way-up)
--Dijkstra's algorithm
+### [Missing Numbers](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/missing-numbers)
 
-### [The Coin Change Problem](https://www.hackerrank.com/challenges/coin-change/submissions)
--Knapsack problems
+### [Atacan plays Hide And Seek](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/atacan-plays-hide-and-seek)
 
-### [The Longest Common Subsequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/dynamic-programming-classics-the-longest-common-subsequence)
+### [Choose the most happy B](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/choose-the-most-happy-b)
 
+### [We Want Milk](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/we-want-milk)
 
-### [Wololo 0](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/wololo-0)
--Segment tree with lazy propagation
+### [Fasho and The Street](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/fasho-and-street)
 
-### [Xor 3](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/xor-3-3)
+### [Currency System in Geraldion](https://www.hackerrank.com/contests/inzva-02-algorithm-1-onsite-2018/challenges/currency-system-in-geraldion)
 
-### [Halil and The Party](https://www.hackerrank.com/contests/itu-acm-contest-1/challenges/halil-and-party)
+### [Find the Range](https://www.hackerrank.com/contests/inzva-02-algorithm-1-onsite-2018/challenges/find-the-range)
 
-### [Bekci and His Machine Learning Experience](https://www.hackerrank.com/contests/itu-acm-contest-1/challenges/bekci-and-his-machine-learning-experience)
+### [Make a Permutation](https://www.hackerrank.com/contests/inzva-02-algorithm-1-onsite-2018/challenges/permutation-10-2)
 
-### [Bekci and His Machine Learning Experience 3](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/bekci-and-his-machine-learning-experience-3)
+### [Count Inversions 2](https://www.hackerrank.com/contests/inzva-02-algorithm-1-onsite-2018/challenges/count-inversions-2)
 
-### [Yavuz and His Brilliant 3ncrypt10n Technique 2](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/yavuz-and-his-brilliant-3ncrypt10n-technique-2)
+### [Identify Smith Numbers](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/identify-smith-numbers)
 
-### [Bugrul vs Prime Snake](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/bugrul-vs-prime-snake)
--Segment tree without lazy
+### [Pascal, Take Us To The Disco](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/pascal-take-us-to-the-disco)
 
-### [Oðuz and His New Job 2](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/oguz-and-his-new-job-2)
+### [Easy GCD](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/easy-gcd-1)
 
-### [Emre vs KEO](https://www.hackerrank.com/contests/itu-acm-contest-2/challenges/emre-vs-keo)
+### [nCr table](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/ncr-table)
 
-### [Bob and Ben](https://www.hackerrank.com/challenges/bob-and-ben/problem)
--Game theory
+### [Primeobacci](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/primeobacci)
 
--Sprague-Grundy theorem
+### [Super Humble Matrix](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/super-humble-matrix)
 
-### [Game of Stones](https://www.hackerrank.com/challenges/game-of-stones-1/problem)
--Game theory
+### [Picking Cards](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/picking-cards)
 
-### [A Chessboard Game](https://www.hackerrank.com/challenges/a-chessboard-game-1/problem)
--Game theory
+### [Havva's Fav Food](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/havvas-fav-food)
 
-### [Introduction to Nim Game](https://www.hackerrank.com/challenges/nim-game-1/problem)
--Game theory
+### [Permutations 7](https://www.hackerrank.com/contests/inzva-03-math-1-onsite-2018/challenges/permutations-7)
 
-### [Tower Breakers](https://www.hackerrank.com/challenges/tower-breakers-1/problem)
--Game theory
+### [Subsets 1](https://www.hackerrank.com/contests/inzva-03-math-1-onsite-2018/challenges/subsets-1)
 
-### [Nimble Game](https://www.hackerrank.com/challenges/nimble-game-1/problem)
--Game theory
+### [Imperfection](https://www.hackerrank.com/contests/inzva-03-math-1-onsite-2018/challenges/imperfection)
 
-### [Adventures of Bugrul](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/adventures-of-bugrul)
+### [What does Kayacan want?](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/what-does-kayacan-want)
 
-### [Eylül and Her New Job](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/eylul-and-her-new-job)
+### [Study Groups In inzva](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/study-groups-in-inzva)
 
-### [Oğuz and His New Job 3](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/oguz-and-his-new-job-3)
+### [Havva's Order](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/havvas-order)
 
-### [Solut and Linux Kernel](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/solut)
+### [Adventures of Bugrul](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/adventures-of-bugrul)
 
-### [Yavuz and His Brilliant 3ncrypt10n Technique 3](https://www.hackerrank.com/contests/itu-acm-contest-3/challenges/yavuz-and-his-brilliant-3ncrypt10n-technique-3)
+### [Eylül and Her New Job](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/eylul-and-her-new-job)
+
+### [Country Roads, Take Me Home](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/country-roads-take-me-home)
+
+### [Winter Camp](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/winter-camp)
+
+### [Summer Camp](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/summer-camp)
+
+### [Not a Disjoint Set Problem](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/not-a-disjoint-set-problem)
+
+### [Havva's Order 2](https://www.hackerrank.com/contests/inzva-04-graph-1-onsite-2018/challenges/havvas-order-2)
+
+### [Yasin'in Arkadaşları Gülçin Nurçin ve Yalçın](https://www.hackerrank.com/contests/inzva-04-graph-1-onsite-2018/challenges/yasinin-arkadaslari-gulcin-nurcin-ve-yalcin)
+
+### [Dijk Değil Dijkstra](https://www.hackerrank.com/contests/inzva-04-graph-1-onsite-2018/challenges/dijk-degil-dijkstra)
+
+### [XOX 1](https://www.hackerrank.com/contests/inzva-04-graph-1-onsite-2018/challenges/xox-1)
+
+### [Rzgi](https://www.hackerrank.com/contests/inzva-04-graph-1-onsite-2018/challenges/rzgi)
+
+### [Marc's Cakewalk](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/marcs-cakewalk)
+
+### [Sherlock and The Beast](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/sherlock-and-the-beast)
+
+### [Knapsack](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/unbounded-knapsack)
+
+### [The Longest Common Subsequence](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/dynamic-programming-classics-the-longest-common-subsequence)
+
+### [Onur and Suffix Query](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/suffix-query)
+
+### [Halil and Freelance Projects](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/halils-interviews)
+
+### [Goodland Electricity](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/pylons)
+
+### [Sam and substrings](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/sam-and-substrings)
+
+### [Chief Hopper](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/chief-hopper)
+
+### [Concerts in Romania](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/concerts-in-romania)
+
 
 
 # Not Solved Yet
 
-### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/black-mirror-1)
+### [The Bomberman Game](https://www.hackerrank.com/contests/inzva-01-intro-online-2018/challenges/bomber-man)
 
-### [Hypertubes](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/hypertubes)
+### [The Top of the Pyramid](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/the-top-of-the-pyramid)
 
-### [Kingdom Division](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kingdom-division)
+### [Kastamonu Collider](https://www.hackerrank.com/contests/inzva-02-algorithm-1-online-2018/challenges/kastamonu-collider)
 
-### [Mafia 2](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/mafia-2)
+### [Dumbbells](https://www.hackerrank.com/contests/inzva-02-algorithm-1-onsite-2018/challenges/dumbbells)
 
-### [Merdoland](https://www.hackerrank.com/contests/inzva-acsc-foundation-final/challenges/merdoland)
+### [Remember Bubble Sort 2](https://www.hackerrank.com/contests/inzva-02-algorithm-1-onsite-2018/challenges/remember-bubble-sort-2)
 
-### [Minimum Loss](https://www.hackerrank.com/challenges/minimum-loss/problem)
+### [Simple One](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/simple-one)
 
-### [The Longest Increasing Subsequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/longest-increasing-subsequent)
+### [Circles Math](https://www.hackerrank.com/contests/inzva-03-math-1-online-2018/challenges/circles-math)
+
+### [Not Fibo](https://www.hackerrank.com/contests/inzva-03-math-1-onsite-2018/challenges/not-fibo)
+
+### [Reminder](https://www.hackerrank.com/contests/inzva-03-math-1-onsite-2018/challenges/reminder)
+
+### [Murat's Way to inzva](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/murats-way-to-inzva)
+
