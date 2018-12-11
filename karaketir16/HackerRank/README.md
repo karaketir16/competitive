@@ -118,6 +118,14 @@
 
 ### [Concerts in Romania](https://www.hackerrank.com/contests/inzva-05-dp-1-online-2018/challenges/concerts-in-romania)
 
+### [Buggy Bot](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/buggy-bot)
+
+### [Onur and the Piano](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/onur-and-the-piano)
+
+### [Halil and Interview Challenge](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/halil)
+
+### [Keoto Drone](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/keoto-drone)
+
 
 
 # Not Solved Yet
@@ -141,4 +149,6 @@
 ### [Reminder](https://www.hackerrank.com/contests/inzva-03-math-1-onsite-2018/challenges/reminder)
 
 ### [Murat's Way to inzva](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/murats-way-to-inzva)
+
+### [The Filcan Bomb](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/the-filcan-bomb)
 
