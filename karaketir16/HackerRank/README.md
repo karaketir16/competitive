@@ -126,6 +126,58 @@
 
 ### [Keoto Drone](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/keoto-drone)
 
+### [Goodland Electricity](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/pylons)
+
+### [Basketball and Vengax](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/basketball-5)
+
+### [Crossword Puzzle](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/crossword-puzzle)
+
+### [Minion Chef](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/tahsin-chef)
+
+### [Cookie Lover](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/cookie-lover)
+
+### [Knapsack](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/unbounded-knapsack)
+
+### [Red John is Back](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/red-john-is-back)
+
+### [Cookie lover 2](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/cookie-lover-2)
+
+### [Snakes and Ladders: The Quickest Way Up](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/the-quickest-way-up)
+
+### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/floyd-city-of-blinding-lights)
+
+### [Jack goes to Rapture](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/jack-goes-to-rapture)
+
+### [Merdopolis](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/merdopolis)
+
+### [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kruskalmstrsub)
+
+### [Favorite sequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/favourite-sequence)
+
+### [Kth Ancestor](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kth-ancestor)
+
+### [The Longest Common Subsequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/dynamic-programming-classics-the-longest-common-subsequence)
+
+### [Sherlock and Array](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/sherlock-and-array)
+
+### [Xor 3](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/xor-3-3)
+
+### [Wololo 0](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/wololo-0)
+
+### [No Prefix Set](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/no-prefix-set)
+
+### [Introduction to Nim Game](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/nim-game-1)
+
+### [Chessboard Game, Again!](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/chessboard-game-again-1)
+
+### [Pass Phrase](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/pass-phrase)
+
+### [Punishment 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/punishment-1)
+
+### [Pelinsu and Berkecan](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/pelinsu-and-berkecan)
+
+### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/guitar)
+
 
 
 # Not Solved Yet
@@ -151,4 +203,22 @@
 ### [Murat's Way to inzva](https://www.hackerrank.com/contests/inzva-04-graph-1-online-2018/challenges/murats-way-to-inzva)
 
 ### [The Filcan Bomb](https://www.hackerrank.com/contests/inzva-05-dp-1-onsite-2018/challenges/the-filcan-bomb)
+
+### [Kingdom Division](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/kingdom-division)
+
+### [The Longest Increasing Subsequence](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/longest-increasing-subsequent)
+
+### [Treasure Hunt 4](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/treasure-hunt-4-1)
+
+### [Basketball 5](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/basketball-5-1)
+
+### [Hypertubes](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/hypertubes)
+
+### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/black-mirror-1)
+
+### [Cab is going to be Crazy 3](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/cab-is-going-to-be-crazy-3)
+
+### [Mafia 2](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/mafia-2)
+
+### [Merdoland](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/merdoland)
 
