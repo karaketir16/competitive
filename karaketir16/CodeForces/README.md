@@ -10,6 +10,8 @@
 
 ### [A. The Text Splitting](https://codeforces.com/contest/612/problem/A)
 
+### [A. The Fair Nut and Elevator](https://codeforces.com/contest/1084/problem/A)
+
 ### [B. Delete from the Left](http://codeforces.com/contest/1005/problem/B)
 
 ### [B. Turn the Rectangles](http://codeforces.com/contest/1008/problem/B)
@@ -20,6 +22,8 @@
 
 ### [B. HDD is Outdated Technology](https://codeforces.com/contest/612/problem/B)
 
+### [B. Kvass and the Fair Nut](https://codeforces.com/contest/1084/problem/B)
+
 ### [C. Summarize to the Power of Two](http://codeforces.com/contest/1005/problem/C)
 
 ### [C. Reorder the Array](http://codeforces.com/contest/1008/problem/C)
@@ -28,9 +32,15 @@
 
 ### [C. Replace To Make Regular Bracket Sequence](https://codeforces.com/contest/612/problem/C)
 
+### [C. The Fair Nut and String](https://codeforces.com/contest/1084/problem/C)
+
 ### [D. The Union of k-Segments](https://codeforces.com/contest/612/problem/D)
+
+### [D. The Fair Nut and the Best Path](https://codeforces.com/contest/1084/problem/D)
 
 # Not Solved Yet
 ### [E1. Median on Segments (Permutations Edition)](http://codeforces.com/contest/1005/problem/E1)
+
 ### [D. Polycarp and Div 3](http://codeforces.com/contest/1005/problem/D)
+
 ### [C. Make Palindrome](http://codeforces.com/contest/600/problem/C)
