@@ -32,6 +32,8 @@
 
 ### [C. Replace To Make Regular Bracket Sequence](https://codeforces.com/contest/612/problem/C)
 
+### [C. Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C)
+
 ### [C. The Fair Nut and String](https://codeforces.com/contest/1084/problem/C)
 
 ### [D. The Union of k-Segments](https://codeforces.com/contest/612/problem/D)
