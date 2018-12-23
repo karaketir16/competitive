@@ -178,6 +178,33 @@
 
 ### [Guitar](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/guitar)
 
+### [Balanced Bracket Sequences](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/balanced-bracket-sequences)
+
+### [Minion Chef](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/tahsin-chef)
+
+### [Dynamic Array](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/dynamic-array)
+
+### [Emre's Square](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/emres-square)
+
+### [2 Lazy 2 Write a Story](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/2-lazy-2-write-a-story)
+
+### [2 Lazy 2 Write a Story 1](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/2-lazy-2-write-a-story-1)
+
+### [2 Lazy 2 Write a Story 2](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/2-lazy-2-write-a-story-2)
+
+### [Bugrul vs Prime Snake](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/bugrul-vs-prime-snake)
+
+### [Array Xor](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/array-xor)
+
+### [Range Queries 1](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/range-queries-1)
+
+### [2 Lazy 2 Write a Story 3 feat by Yasin Kaya](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/2-lazy-2-write-a-story-3)
+
+### [Fishermen](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/fishermen)
+
+### [Blackbeard Rgzi](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/blackbeard-rgzi)
+
+
 
 
 # Not Solved Yet
@@ -221,4 +248,10 @@
 ### [Mafia 2](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/mafia-2)
 
 ### [Merdoland](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/merdoland)
+
+### [Ekin's Weird Request](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/ekins-weird-request)
+
+### [It is a project...](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/project4)
+
+### [Utku's Array](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/utkus-array)
 
