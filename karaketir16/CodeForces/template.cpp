@@ -11,9 +11,9 @@
 #define MOD 1000000007
 #define orta ((a+b)/2)
 using namespace std;
-
+typedef long long int lint;
 int main()
 {
-
+    std::ios::sync_with_stdio(false);
     return 0;
 }
