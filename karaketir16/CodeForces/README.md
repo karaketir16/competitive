@@ -12,6 +12,8 @@
 
 ### [A. The Fair Nut and Elevator](https://codeforces.com/contest/1084/problem/A)
 
+### [A. Puzzles](https://codeforces.com/group/8kQPBME1JD/contest/235144/problem/A)
+
 ### [B. Delete from the Left](http://codeforces.com/contest/1005/problem/B)
 
 ### [B. Turn the Rectangles](http://codeforces.com/contest/1008/problem/B)
@@ -24,6 +26,8 @@
 
 ### [B. Kvass and the Fair Nut](https://codeforces.com/contest/1084/problem/B)
 
+### [B. Hit the Lottery](https://codeforces.com/group/8kQPBME1JD/contest/235144/problem/B)
+
 ### [C. Summarize to the Power of Two](http://codeforces.com/contest/1005/problem/C)
 
 ### [C. Reorder the Array](http://codeforces.com/contest/1008/problem/C)
@@ -35,6 +39,8 @@
 ### [C. Little Girl and Maximum Sum](https://codeforces.com/contest/276/problem/C)
 
 ### [C. The Fair Nut and String](https://codeforces.com/contest/1084/problem/C)
+
+### [C. Expression](https://codeforces.com/group/8kQPBME1JD/contest/235144/problem/C)
 
 ### [D. The Union of k-Segments](https://codeforces.com/contest/612/problem/D)
 
