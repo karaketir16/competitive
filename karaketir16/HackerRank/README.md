@@ -204,6 +204,23 @@
 
 ### [Blackbeard Rgzi](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/blackbeard-rgzi)
 
+### [Median 9](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/median-9)
+
+### [Random Array](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/random-array)
+
+### [Doors in inzva](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/doors-in-inzva)
+
+### [Number of Sequences 1](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/number-of-sequences-1-1)
+
+### [Valued Coins](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/valued-coins)
+
+### [Corro's Tweet](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/corros-tweet)
+
+### [Array Xor Revisited](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/array-xor-revisited)
+
+### [Inheritance Dispute](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/inheritance-dispute)
+
+### [Cihat Needs Your Help](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/cihat-needs-your-help)
 
 
 
@@ -254,4 +271,10 @@
 ### [It is a project...](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/project4)
 
 ### [Utku's Array](https://www.hackerrank.com/contests/inzva-first-term-2018/challenges/utkus-array)
+
+### [2xN-Tangram](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/2xn-tangram)
+
+### [True False Test](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/true-false-test)
+
+### [Kayacan The Mailman](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/kayacan-the-mailman)
 

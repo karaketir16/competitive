@@ -9,15 +9,29 @@
 #define dbg(x) cerr<<#x<<":"<<x<<endl
 #define N 100005
 #define MOD 1000000007
-#define mid ((a+b)/2)
+#define orta ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
-#define INPUT(v) for(auto &x:v)cin>>x
-#define FOR0(x) for(int i = 0;i<x;i++)
-#define FOR1(x) for(int i = 1;i<x;i++)
 using namespace std;
 typedef long long int lint;
 int main()
 {
     std::ios::sync_with_stdio(false);
+    lint n,w;
+    cin>>n>>w;
+    vector<lint> v(n);
+    for(auto &x:v) cin>>x;
+    
+    int bas= 0 ;
+    int son = 0 ;
+    lint tot=0;
+    lint result = 0 ;
+    for(auto &x:v)
+    {
+        tot+=x;
+        son++;
+        while(tot>w) tot-=v[bas++];
+        if(tot==w) result++;
+    }
+    cout<<result;
     return 0;
 }

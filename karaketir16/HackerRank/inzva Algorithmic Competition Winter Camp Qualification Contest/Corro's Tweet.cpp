@@ -9,15 +9,32 @@
 #define dbg(x) cerr<<#x<<":"<<x<<endl
 #define N 100005
 #define MOD 1000000007
-#define mid ((a+b)/2)
+#define orta ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
 #define INPUT(v) for(auto &x:v)cin>>x
-#define FOR0(x) for(int i = 0;i<x;i++)
-#define FOR1(x) for(int i = 1;i<x;i++)
 using namespace std;
 typedef long long int lint;
+int dfs(int i, vector<vector<int>> &v, int d)
+{
+    int maxx=0;
+    for(auto x:v[i])
+    {
+        maxx=max(maxx, dfs(x, v, d+1));
+    }
+    return maxx+1;
+}
 int main()
 {
     std::ios::sync_with_stdio(false);
+    vector<vector<int>> v(N);
+    int n;
+    cin>>n;
+    for(int i=0;i+1<n;i++)
+    {
+        int x,y;
+        cin>>x>>y;
+        v[y].pb(x);
+    }
+    cout<<dfs(1, v, 1);
     return 0;
 }

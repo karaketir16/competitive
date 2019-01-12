@@ -9,15 +9,16 @@
 #define dbg(x) cerr<<#x<<":"<<x<<endl
 #define N 100005
 #define MOD 1000000007
-#define mid ((a+b)/2)
+#define orta ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
-#define INPUT(v) for(auto &x:v)cin>>x
-#define FOR0(x) for(int i = 0;i<x;i++)
-#define FOR1(x) for(int i = 1;i<x;i++)
 using namespace std;
 typedef long long int lint;
 int main()
 {
     std::ios::sync_with_stdio(false);
+    int n;
+    cin>>n;
+    lint x = pow(2, n + 1);
+    cout<<x-2;;
     return 0;
 }
