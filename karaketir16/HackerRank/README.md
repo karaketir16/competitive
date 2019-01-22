@@ -222,6 +222,28 @@
 
 ### [Cihat Needs Your Help](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/cihat-needs-your-help)
 
+### [Clan Wars](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/clan-wars)
+
+### [Compilation Error](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/compilation-error)
+
+### [Solut and Linux Kernel](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/solut)
+
+### [Dijkstra: Shortest Reach 2](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/dijkstrashortreach)
+
+### [Kruskal (MST): Really Special Subtree](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/kruskalmstrsub)
+
+### [Jack goes to Rapture](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/jack-goes-to-rapture)
+
+### [Prim's (MST) : Special Subtree](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/primsmstsub)
+
+### [Floyd : City of Blinding Lights](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/floyd-city-of-blinding-lights)
+
+### [Network Problem](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/network-problem-1)
+
+### [Sadık in Wonderland](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/sadik-in-wonderland)
+
+### [Favorite sequence](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/favourite-sequence)
+
 
 
 # Not Solved Yet
@@ -277,4 +299,10 @@
 ### [True False Test](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/true-false-test)
 
 ### [Kayacan The Mailman](https://www.hackerrank.com/contests/inzva-acwc2019-qualification/challenges/kayacan-the-mailman)
+
+### [Farmer Utku](https://www.hackerrank.com/contests/inzva-07-graph-2-online-2019/challenges/farmer-utku)
+
+### [Farmer Utku 2](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/farmer-utku-2)
+
+### [Roads 4](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/roads-4)
 
