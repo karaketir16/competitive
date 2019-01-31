@@ -244,6 +244,7 @@
 
 ### [Favorite sequence](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/favourite-sequence)
 
+### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/black-mirror-1)
 
 
 # Not Solved Yet
@@ -279,8 +280,6 @@
 ### [Basketball 5](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/basketball-5-1)
 
 ### [Hypertubes](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/hypertubes)
-
-### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/black-mirror-1)
 
 ### [Cab is going to be Crazy 3](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/cab-is-going-to-be-crazy-3)
 

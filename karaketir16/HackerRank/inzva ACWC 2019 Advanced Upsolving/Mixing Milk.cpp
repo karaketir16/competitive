@@ -17,8 +17,36 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
+void pour(int a,int& x , int b, int& y)
+{
+    if(x+y > b)
+    {
+        x -= b-y;
+        y = b;
+    }
+    else
+    {
+        y += x;
+        x = 0;
+    }
+    
+}
 int main()
 {
     std::ios::sync_with_stdio(false);
-    return 0;    
+    int a,b,c,x,y,z;
+    cin >> a >> x;
+    cin >> b >> y;
+    cin >> c >> z;
+
+    for(int i=0;i<33;i++)
+    {
+        pour(a,x,b,y);
+        pour(b,y,c,z);
+        pour(c,z,a,x);
+    }
+    pour(a,x,b,y);
+
+
+    cout << x << endl << y << endl << z;
 }

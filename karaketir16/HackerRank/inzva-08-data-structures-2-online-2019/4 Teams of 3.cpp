@@ -19,6 +19,7 @@ using namespace std;
 typedef long long int lint;
 int main()
 {
+    
     std::ios::sync_with_stdio(false);
-    return 0;    
+    return 0;
 }
