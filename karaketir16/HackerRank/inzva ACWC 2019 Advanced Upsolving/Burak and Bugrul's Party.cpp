@@ -2,12 +2,12 @@
 #define pb push_back
 #define fi first
 #define sc second
-#define inf    1000000000000000LL
+#define inf 1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
 #define dbg(x) cerr<<#x<<":"<<x<<endl
-#define N 100005
+#define N 1005
 #define MOD 1000000007
 #define mid(a, b) ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
@@ -17,38 +17,38 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
-void pour(int a,int& x , int b, int& y)
-{
-    if(x+y > b)
-    {
-        x -= b-y;
-        y = b;
-    }
-    else
-    {
-        y += x;
-        x = 0;
-    }
-    
-}
 int main()
 {
     std::ios::sync_with_stdio(false);
-    int a,b,c,x,y,z;
-    cin >> a >> x;
-    cin >> b >> y;
-    cin >> c >> z;
-
-    for(int i=0;i<33;i++)
+    lint n;
+    vector<lint> erler;
+    vector<lint> k(N);
+    cin>>n;
+    for(int i = 0; i < n; i++)
     {
-        pour(a,x,b,y);
-        pour(b,y,c,z);
-        pour(c,z,a,x);
+        lint x;
+        cin>>x;
+        erler.push_back(x);
     }
-    pour(a,x,b,y);
 
+    for(int i = 0; i < n; i++)
+    {
+        lint x;
+        cin>>x;
+        k[x]++;
+    }
+    lint res = 0;
+    for(auto a:erler)
+    {
+        if(k[a] < n) // esit ??
+        {
+            res++;
+            k[a]++;
+        }
+    }
+    cout<<res;
 
-    cout << x << "\n" << y << "\n" << z;
+    
+
     return 0;
 }
-// by salihfc

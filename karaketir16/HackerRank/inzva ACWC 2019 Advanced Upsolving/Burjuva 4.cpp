@@ -2,12 +2,12 @@
 #define pb push_back
 #define fi first
 #define sc second
-#define inf    1000000000000000LL
+#define inf 1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
 #define dbg(x) cerr<<#x<<":"<<x<<endl
-#define N 100005
+#define N 1005
 #define MOD 1000000007
 #define mid(a, b) ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
@@ -17,38 +17,29 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
-void pour(int a,int& x , int b, int& y)
-{
-    if(x+y > b)
-    {
-        x -= b-y;
-        y = b;
-    }
-    else
-    {
-        y += x;
-        x = 0;
-    }
-    
-}
 int main()
 {
     std::ios::sync_with_stdio(false);
-    int a,b,c,x,y,z;
-    cin >> a >> x;
-    cin >> b >> y;
-    cin >> c >> z;
-
-    for(int i=0;i<33;i++)
+    lint n;
+    cin>>n;
+    vector<lint> v;
+    for(int i = 0;i<n;i++)
     {
-        pour(a,x,b,y);
-        pour(b,y,c,z);
-        pour(c,z,a,x);
+        lint x, y;
+        cin>>x>>y;
+        v.pb(y - x);
     }
-    pour(a,x,b,y);
-
-
-    cout << x << "\n" << y << "\n" << z;
+    for(int i = 0;i<n-1;i++)
+    {
+        v[i+1] += v[i];
+    }
+    sort(ALL(v));
+    lint tot = 0;
+    lint m = -v[n/2];
+    for(int i = 0;i<n;i++)
+    {
+        tot+=abs(v[i] + m);
+    }
+    cout<<tot;
     return 0;
 }
-// by salihfc

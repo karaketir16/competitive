@@ -246,6 +246,76 @@
 
 ### [Black Mirror 1](https://www.hackerrank.com/contests/inzva-acsc-foundation-upsolving/challenges/black-mirror-1)
 
+### [Havva's Fav Food 2](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-1/challenges/havvas-fav-food-2)
+
+### [inzvaland](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-1/challenges/inzvaland)
+
+### [Spheres](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-1/challenges/spheres/problem)
+
+### [It is not Brute-Force](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-1/challenges/it-is-not-brute-force)
+
+### [inzva ICPC](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-1/challenges/inzva-icpc)
+
+### [Oğuz and His New Job](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-1/challenges/oguz-and-his-new-job)
+
+### [Keko Loves Matrices](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/keko-loves-matrices)
+
+### [Bekci and His Machine Learning Experience 2](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/bekci-and-his-machine-learning-experience-2)
+
+### [Mecho](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/mecho)
+
+### [The Bucket List](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/the-bucket-list)
+
+### [Buğrul and .NET functions](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/korhan-ve-net-fonksiyonlari)
+
+### [Fiddler on the Roof](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/fiddler-on-the-roof)
+
+### [Roads in HackerLand](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-2/challenges/johnland)
+
+### [Word 2](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/word-2)
+
+### [Online Median](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/online-median)
+
+### [GCDLCM](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/gcdlcm)
+
+### [Santa Claus Travel](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/santa-claus-travel)
+
+### [Is This a Binary Search Tree?](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/is-binary-search-tree)
+
+### [Jack goes to Rapture](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/jack-goes-to-rapture)
+
+### [Predictable Cards](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-3/challenges/predictable-cards)
+
+### [Gates of Steel](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/gates-of-steel)
+
+### [Mixing Milk](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/mixing-milk)
+
+### [Havva's Fav Food 3](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/havvas-fav-food-3)
+
+### [Sherlock and MiniMax](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/sherlock-and-minimax)
+
+### [Maximizing the Function](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/maximizing-the-function)
+
+### [inzva's Placement](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/inzvas-placement)
+
+### [DAG Generator](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/dag-generator)
+
+### [Game Of Rotation](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/game-of-rotation)
+
+### [Yasin vs Almira](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/yasin-vs-almira)
+
+### [Countin' People](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/countin-people)
+
+### [Burjuva 4](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/burjuva-4)
+
+### [Right Triangles 1](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/right-triangles-1)
+
+### [Yasin and Kaya](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/yasin-and-his-gf-kaya)
+
+### [Burak and Bugrul's Party](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/burak-bugrul)
+
+### [Ship Shipping Ship, Shipping Shipping Ships](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/ship-shipping-ship-shipping-shipping-ships)
+
 
 # Not Solved Yet
 
@@ -304,4 +374,20 @@
 ### [Farmer Utku 2](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/farmer-utku-2)
 
 ### [Roads 4](https://www.hackerrank.com/contests/inzva-07-graph-2-onsite-2019/challenges/roads-4)
+
+### [Tower Construction](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-4/challenges/tower-construction)
+
+### [Rzgi and Candy Bowls](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/rzgi-and-candy-bowls)
+
+### [Competition 2](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/competition-2)
+
+### [Students Phones](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-5/challenges/students-phones)
+
+### [Regular Brackets of Tuğçe](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/regular-brackets-of-tugce)
+
+### [Sadik and Ekin](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/sadik-and-ekin)
+
+### [Rzgi's Gifts](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/rzgis-gifts)
+
+### [Tree Cutting](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/tree-cutting)
 

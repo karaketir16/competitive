@@ -2,7 +2,7 @@
 #define pb push_back
 #define fi first
 #define sc second
-#define inf    1000000000000000LL
+#define inf 1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
@@ -17,38 +17,35 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
-void pour(int a,int& x , int b, int& y)
+vector<int> uf(N);
+vector<lint> sizes(N);
+int parent(int x)
 {
-    if(x+y > b)
-    {
-        x -= b-y;
-        y = b;
-    }
-    else
-    {
-        y += x;
-        x = 0;
-    }
-    
+    if(x!=uf[x]) uf[x] = parent(uf[x]);
+    return uf[x];
+}
+bool find(int n1, int n2)
+{
+    return parent(n1)==parent(n2);
+}
+void connect(int n1, int n2) //get parents
+{
+    //uf[uf[n1]] = uf[n2];
+
+    uf[n2] = n1;
+    sizes[n1] += sizes[n2];
+}
+lint size(int n)
+{
+    return sizes[parent(n)];
 }
 int main()
 {
     std::ios::sync_with_stdio(false);
-    int a,b,c,x,y,z;
-    cin >> a >> x;
-    cin >> b >> y;
-    cin >> c >> z;
-
-    for(int i=0;i<33;i++)
-    {
-        pour(a,x,b,y);
-        pour(b,y,c,z);
-        pour(c,z,a,x);
-    }
-    pour(a,x,b,y);
 
 
-    cout << x << "\n" << y << "\n" << z;
+    FOR0(N) uf[i] = i;
+    FOR0(N) sizes[i] = 1;
+
     return 0;
 }
-// by salihfc

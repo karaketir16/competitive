@@ -2,12 +2,12 @@
 #define pb push_back
 #define fi first
 #define sc second
-#define inf    1000000000000000LL
+#define inf 1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
 #define dbg(x) cerr<<#x<<":"<<x<<endl
-#define N 100005
+#define N 1005
 #define MOD 1000000007
 #define mid(a, b) ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
@@ -17,38 +17,33 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
-void pour(int a,int& x , int b, int& y)
-{
-    if(x+y > b)
-    {
-        x -= b-y;
-        y = b;
-    }
-    else
-    {
-        y += x;
-        x = 0;
-    }
-    
-}
+
+int n;
+vector <pair <lint,lint>> vx,vy;
+map <lint,lint> mpx,mpy;
+
 int main()
 {
     std::ios::sync_with_stdio(false);
-    int a,b,c,x,y,z;
-    cin >> a >> x;
-    cin >> b >> y;
-    cin >> c >> z;
+    cin >> n;
 
-    for(int i=0;i<33;i++)
+    for(int i = 0; i < n; i++)
     {
-        pour(a,x,b,y);
-        pour(b,y,c,z);
-        pour(c,z,a,x);
+        int a,b;
+        cin >> a >> b;
+        vx.pb({a,b});
+        mpx[a]++;
+        mpy[b]++;
     }
-    pour(a,x,b,y);
+    
+    // sort(ALL(vx));  
 
-
-    cout << x << "\n" << y << "\n" << z;
+    lint a=0LL;
+    for(int i = 0; i < n; i++)
+    {
+        a += max(0LL,mpx[vx[i].first]-1) * max(0LL,mpy[vx[i].second]-1);
+    }
+    printf("%lld\n",a);
+    
     return 0;
 }
-// by salihfc

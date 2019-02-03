@@ -17,29 +17,32 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
-double calcdst(lint i, lint j, lint a, lint b)
+lint calcdst(lint i, lint j, lint a, lint b)
 {
-    return sqrt((i -a)*(i-a)+(j-b)*(j-b));
+    return ((i -a)*(i-a)+(j-b)*(j-b));
 }
-
+/* lint calcdst(lint i, lint j, lint a, lint b)
+{
+    return ((abs(i - a)+abs(j-b))*(abs(i -a)+abs(j-b)));
+} */
 pair<lint, lint> move(pair<lint, lint> a, char c)
 {
     lint i= a.first, j = a.second;
     switch (c)
     {
-        case 'N':
-            i--;
-            break;
-        
-        case 'S':
+        case 'E':
             i++;
             break;
         
-        case 'E':
+        case 'W':
+            i--;
+            break;
+        
+        case 'N':
             j++;
             break;
         
-        case 'W':
+        case 'S':
             j--;
             break;
     
@@ -50,7 +53,12 @@ pair<lint, lint> move(pair<lint, lint> a, char c)
 }
 struct Cell
 {
-    int i, j, a, b, dist = inf;
+    int i, j, a, b;
+    lint dist = inf;
+    Cell()
+    {
+
+    }
     Cell(int i, int j, int a, int b, lint dist)
     {
         this->i=i;
@@ -69,17 +77,96 @@ int main()
     cin>>n>>m;
     int ni, nj, mi, mj;
     cin>>ni>>nj>>mi>>mj;
-    vector<vector<Cell>> v(n+1, vector<Cell>(n+1));
+    vector<vector<Cell>> v(n+1, vector<Cell>(m+1));
     string sn, sm;
     cin>>sn>>sm;
 
     sn = "$" + sn;
     sm = "$" + sm;
 
-
+  /*   dbg(sn);
+    dbg(sm); */
     v[0][0] = Cell(ni, nj, mi, mj, 0);
+    for(int j =1; j <=m; j++)
+    {
+        v[0][j] = v[0][j-1];
+        auto mm = move({v[0][j].a, v[0][j].b}, sm[j]);
+        v[0][j].a = mm.first;
+        v[0][j].b = mm.second;
+    } 
+    for(int i =1; i <=n; i++)
+    {
+        for(int j =0; j <=m; j++)
+        {
+            v[i][j] = v[i-1][j];
+            auto nn = move({v[i][j].i, v[i][j].j}, sn[i]);
+            v[i][j].i = nn.first;
+            v[i][j].j = nn.second;
+        }
+    }
+
+    for(int i =0; i <=n; i++)
+    {
+        for(int j =0; j <=m; j++)
+        {
+            v[i][j].dist = calcdst(v[i][j].i, v[i][j].j, v[i][j].a, v[i][j].b);
+        }
+    }
+/* 
+    for(int i =0; i <=n; i++)
+    {
+        for(int j =0; j <=m; j++)
+        {
+            
+            cerr<<v[i][j].dist<<"        ";
+        }
+        cerr<<"\n";
+    }
+    cerr<<"\n";
+    cerr<<"\n";
+ */
+    for(int j =1; j <=m; j++)
+    {
+        v[0][j].dist += v[0][j-1].dist;
+    } 
+
+    for(int i =1; i <=n; i++)
+    {
+        v[i][0].dist += v[i-1][0].dist;
+    }
 
 
+    for(int i =1; i <=n; i++)
+    {
+        for(int j =1; j <=m; j++)
+        {
+            v[i][j].dist += min3(v[i-1][j].dist, v[i][j-1].dist, v[i-1][j-1].dist);
+            //cerr<<v[i][j].dist<<"        ";
+        }
+        //cerr<<"\n";
+    }
+ 
+/*     dbg(v[n][m].i);
+    dbg(v[n][m].j);
+    dbg(v[n][m].a);
+    dbg(v[n][m].b);
+    cerr<<"\n";
+    cerr<<"\n"; */
+/*     for(int i =0; i <=n; i++)
+    {
+        for(int j =0; j <=m; j++)
+        {
+            
+            cerr<<v[i][j].dist<<"        ";
+        }
+        cerr<<"\n";
+    }
+    cerr<<"\n";
+    cerr<<"\n"; */
 
+
+    cout<<v[n][m].dist-v[0][0].dist;
     return 0;
 }
+
+

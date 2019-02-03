@@ -2,12 +2,12 @@
 #define pb push_back
 #define fi first
 #define sc second
-#define inf    1000000000000000LL
+#define inf 1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
 #define dbg(x) cerr<<#x<<":"<<x<<endl
-#define N 100005
+#define N 1005
 #define MOD 1000000007
 #define mid(a, b) ((a+b)/2)
 #define ALL(x) x.begin(),x.end()
@@ -17,38 +17,28 @@
 #define FORE(v) for(auto &a:v)
 using namespace std;
 typedef long long int lint;
-void pour(int a,int& x , int b, int& y)
-{
-    if(x+y > b)
-    {
-        x -= b-y;
-        y = b;
-    }
-    else
-    {
-        y += x;
-        x = 0;
-    }
-    
-}
 int main()
 {
     std::ios::sync_with_stdio(false);
-    int a,b,c,x,y,z;
-    cin >> a >> x;
-    cin >> b >> y;
-    cin >> c >> z;
+    lint n;
+    cin>>n;
+    vector<lint> v(n);
+    INPUT(v);
+    lint tot = 0;
+    FORE(v) tot+=a;
 
-    for(int i=0;i<33;i++)
+    lint res = 0;
+    FOR0(n) res+=(v[i]*(i+1));
+
+    lint maxx = res;
+
+    FORE(v)
     {
-        pour(a,x,b,y);
-        pour(b,y,c,z);
-        pour(c,z,a,x);
+        res-=tot;
+        res+=(a*n);
+        maxx= max(maxx, res);
     }
-    pour(a,x,b,y);
+    printf("%lld", maxx);
 
-
-    cout << x << "\n" << y << "\n" << z;
     return 0;
 }
-// by salihfc
