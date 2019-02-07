@@ -14,6 +14,8 @@
 
 ### [A. Puzzles](https://codeforces.com/group/8kQPBME1JD/contest/235144/problem/A)
 
+### [A. Superhero Transformation](https://codeforces.com/contest/1111/problem/A)
+
 ### [B. Delete from the Left](http://codeforces.com/contest/1005/problem/B)
 
 ### [B. Turn the Rectangles](http://codeforces.com/contest/1008/problem/B)
@@ -42,13 +44,21 @@
 
 ### [C. Expression](https://codeforces.com/group/8kQPBME1JD/contest/235144/problem/C)
 
+### [C. Creative Snap](https://codeforces.com/contest/1111/problem/C)
+
 ### [D. The Union of k-Segments](https://codeforces.com/contest/612/problem/D)
 
 ### [D. The Fair Nut and the Best Path](https://codeforces.com/contest/1084/problem/D)
 
 # Not Solved Yet
+### [B. Average Superhero Gang Power](https://codeforces.com/contest/1111/problem/B)
+
 ### [E1. Median on Segments (Permutations Edition)](http://codeforces.com/contest/1005/problem/E1)
 
 ### [D. Polycarp and Div 3](http://codeforces.com/contest/1005/problem/D)
 
+### [D. Destroy the Colony](https://codeforces.com/contest/1111/problem/D)
+
 ### [C. Make Palindrome](http://codeforces.com/contest/600/problem/C)
+
+### [E. Tree](https://codeforces.com/contest/1111/problem/E)

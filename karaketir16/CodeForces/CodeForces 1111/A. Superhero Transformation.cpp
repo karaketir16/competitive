@@ -18,47 +18,33 @@
 using namespace std;
 typedef long long int lint;
 
-std::vector<lint> v(12);
-lint n1, t1, n2, t2, n3, t3, n4, t4, minn = inf;
-lint rec(lint d)
+bool vo(char c)
 {
-
-
-    if(n1>3||n2>3||n3>3||n4>3) return 0;
-    if(d == 12)
-    {
-        minn = min(minn, max(max3(t1, t2, t3), t4) - min(min3(t1, t2, t3), t4));
-        //dbg(minn);
-    }
-    n1++;
-    t1+=v[d];
-    (rec(d+1));
-    n1--;
-    t1-=v[d];
-    n2++;
-    t2+=v[d];
-    (rec(d+1));
-    n2--;
-    t2-=v[d];
-    n3++;
-    t3+=v[d];
-    (rec(d+1));
-    n3--;
-    t3-=v[d];
-    n4++;
-    t4+=v[d];
-    (rec(d+1));
-    n4--;
-    t4-=v[d];
-    return 0;
+	if(c == 'a' || c=='o' || c=='e' || c=='u'|| c == 'i')
+	{
+		return true;
+	}
+	return false;
 }
 int main()
 {
-    
     std::ios::sync_with_stdio(false);
-
-    INPUT(v);
-    rec(0);
-    cout<<minn;
-    return 0;
+    string s, t;
+    cin>>s>>t;
+    if(s.size()!= t.size())
+    {
+    	cout<<"No";
+    	return 0;
+    }
+    
+    for (int i = 0; i < s.size(); ++i)
+    {
+    	if(vo(s[i])!=vo(t[i]))
+    	{
+    	cout<<"No";
+    	return 0;
+    	}
+    }
+    cout<<"Yes";
+	return 0;
 }
