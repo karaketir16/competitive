@@ -316,6 +316,16 @@
 
 ### [Ship Shipping Ship, Shipping Shipping Ships](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/ship-shipping-ship-shipping-shipping-ships)
 
+### [4 Teams of 3](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/4-teams-of-3)
+
+### [A Paris](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/a-paris)
+
+### [BST and LCA](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/bst-and-lca)
+
+### [Miray and Red Black Tree](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/miray-and-red-black-tree)
+
+### [Look!! It is a Segment Tree](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/segmenttree)
+
 
 # Not Solved Yet
 
@@ -390,4 +400,20 @@
 ### [Rzgi's Gifts](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/rzgis-gifts)
 
 ### [Tree Cutting](https://www.hackerrank.com/contests/inzva-acwc-2019-advanced-final/challenges/tree-cutting)
+
+### [Self Balancing Tree](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/self-balancing-tree)
+
+### [It is a project Bonus](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/it-is-a-project-bonus)
+
+### [Array and simple queries](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/array-and-simple-queries)
+
+### [Max Flow 4](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/max-flow-4)
+
+### [Bombs Has Been Planted](https://www.hackerrank.com/contests/inzva-08-data-structures-2-online-2019/challenges/bombs-has-been-planted)
+
+### [There is an Easy Way](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/there-is-an-easy-way)
+
+### [Array and simple queries](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/array-and-simple-queries)
+
+### [No story Direct Question](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/mstlca)
 
