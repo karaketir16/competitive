@@ -1,8 +1,8 @@
-#include <bits/stdc++.h>
+#include <iostream>
 #define pb push_back
 #define fi first
 #define sc second
-#define inf	1000000000000000LL
+#define inf    1000000000000000LL
 #define MP make_pair
 #define min3(a,b,c) min(a,min(b,c))
 #define max3(a,b,c) max(a,max(b,c))
@@ -15,11 +15,9 @@
 #define FOR0(x) for(int i = 0;i<x;i++)
 #define FOR1(x) for(int i = 1;i<=x;i++)
 #define FORE(v) for(auto &a:v)
-#define bit(number,i) ((number>>i)&1)
 using namespace std;
 typedef long long int lint;
 int main()
 {
-    std::ios::sync_with_stdio(false);
-    return 0;    
+    ios::sync_with_stdio(false);
 }
