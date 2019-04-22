@@ -1,4 +1,4 @@
-#include <iostream>
+#include <bits/stdc++.h>
 #define pb push_back
 #define fi first
 #define sc second
@@ -20,4 +20,53 @@ typedef long long int lint;
 int main()
 {
     ios::sync_with_stdio(false);
+    int q;
+    cin>>q;
+    
+    while(q--)
+    {
+        string s;
+        cin>>s;
+        stack<char> st;
+        bool flag = true; 
+        for(auto a: s)
+        {
+            if(a==')')
+            {
+                if(st.empty() || st.top() != '(')
+                {
+                    cout<<"NO\n";
+                    flag = false;
+                    break;
+                }
+                st.pop();
+            }
+            else if(a==']')
+            {
+                if(st.empty() || st.top() != '[')
+                {
+                    cout<<"NO\n";
+                    flag = false;
+                    break;
+                }
+                st.pop();
+            }
+            else if(a=='}')
+            {
+                if(st.empty() || st.top() != '{')
+                {
+                    cout<<"NO\n";
+                    flag = false;
+                    break;
+                }
+                st.pop();
+            }
+            else
+            {
+                st.push(a);
+            }
+        }
+        if(flag)cout << (st.empty() ? "YES\n" : "NO\n");
+    }
+    return 0;
 }

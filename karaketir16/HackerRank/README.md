@@ -326,6 +326,14 @@
 
 ### [Look!! It is a Segment Tree](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/segmenttree)
 
+### [Contacts](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/contacts)
+
+### [Array Xor Revisited](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/array-xor-revisited)
+
+### [Balanced Brackets](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/balanced-brackets)
+
+### [Equal Stacks](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/equal-stacks)
+
 
 # Not Solved Yet
 
@@ -417,3 +425,12 @@
 
 ### [No story Direct Question](https://www.hackerrank.com/contests/inzva-08-data-structures-2-onsite-2019/challenges/mstlca)
 
+### [Jim and the Skyscrapers](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/jim-and-the-skyscrapers)
+
+### [Ozbaysa's Array](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/ozbaysas-array)
+
+### [Kayacan's Array](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/kayacans-array)
+
+### [Burak's Array](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/buraks-array)
+
+### [Segment_Updates](https://www.hackerrank.com/contests/inzva-09-data-structures-3-online-2019/challenges/segment-updates)

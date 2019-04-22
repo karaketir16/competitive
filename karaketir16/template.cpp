@@ -18,8 +18,17 @@
 #define bit(number,i) ((number>>i)&1)
 using namespace std;
 typedef long long int lint;
+
 int main()
 {
     std::ios::sync_with_stdio(false);
+    vector<vector<int>> a;
+    vector<int> b(1e7);
+    for(int i = 1; i > 0; i++)
+    {
+        a.push_back(b);
+        cout<<i<<'\n';
+    }
+    
     return 0;    
 }

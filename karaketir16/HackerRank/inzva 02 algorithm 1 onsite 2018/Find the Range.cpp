@@ -14,36 +14,6 @@ using namespace std;
 typedef long long int lint;
 
 
-int bs(vector<pair<int,int>> &ranges, int f, int l, int x)
-{
-    int r;
-    int ara;
-    while(f<l)
-    {
-        if(l-f==1)
-        {
-            if(ranges[f].fi==x) return f;
-            if(ranges[l].fi<=x) return l;
-            return f;
-        }
-        r=(l-f)/2;
-        ara=f+r;
-        //cout<<r<<endl;
-        if(ranges[ara].fi==x) return ara;
-        if(ranges[ara].fi>x) 
-        {
-            l=ara;
- 
-
-        }
-        else 
-        {
-            f=ara;
-        }
-        
-    }
-    return f;
-}
 
 int main() {
     vector<pair<int,int>> ranges;
@@ -54,7 +24,7 @@ int main() {
         int x;
         int y;
         cin>>x>>y;
-        ranges.pb(MP(x,y));
+        ranges.pb(MP(y,x));
     }
     sort(ranges.begin(),ranges.end());
     //reverse(ranges.begin(),ranges.end());
@@ -62,20 +32,20 @@ int main() {
     {
         int x;
         cin>>x;
-        pair<int,int> tst;
-        tst.fi=x;
-        tst.sc=2000000000;
-        auto it = upper_bound(ranges.begin(),ranges.end(),tst);
+        pair <int, int> p;
+        p.first = x;
+        p.second = 0;
+        auto it = upper_bound(ranges.begin(),ranges.end(),p);
         int re=it-ranges.begin();
-        re--;
-        if(re==-1) 
+        
+        if(it==ranges.end()) 
         {
             cout<<"No\n";
             continue;
         }
         
         //cout<<re<<endl;
-        if(ranges[re].sc>=x) cout<<"Yes\n";
+        if(ranges[re].sc<x) cout<<"Yes\n";
         else cout<<"No\n";
     }
 
